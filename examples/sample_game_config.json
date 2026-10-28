@@ -1,0 +1,39 @@
+{
+  "game_template": "hidden_objects",
+  "environment": "bedroom",
+  "duration_seconds": 180,
+  "difficulty": "medium",
+  "objects": [
+    {
+      "asset_id": "red_shoe_01",
+      "score": 20
+    },
+    {
+      "asset_id": "book_02",
+      "score": 20
+    },
+    {
+      "asset_id": "headphones_01",
+      "score": 40
+    },
+    {
+      "asset_id": "key_01",
+      "score": 40
+    },
+    {
+      "asset_id": "teddy_bear_01",
+      "score": 60
+    }
+  ],
+  "hints": {
+    "enabled": true,
+    "max_hints": 3
+  },
+  "win_condition": {
+    "type": "find_all_objects"
+  },
+  "reward": {
+    "type": "card",
+    "reward_id": "demo_card_01"
+  }
+}

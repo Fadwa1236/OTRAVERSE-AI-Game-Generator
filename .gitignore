@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/chroma_db/
+examples/demo_results.json
+examples/retrieval_report.json

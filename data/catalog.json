@@ -1,0 +1,83 @@
+{
+  "game_templates": [
+    {
+      "id": "hidden_objects",
+      "name": "Hidden Objects"
+    },
+    {
+      "id": "treasure_hunt",
+      "name": "Treasure Hunt"
+    },
+    {
+      "id": "quiz_hunt",
+      "name": "Quiz Hunt"
+    }
+  ],
+  "environments": [
+    {
+      "id": "bedroom",
+      "name": "Bedroom"
+    },
+    {
+      "id": "v_shop",
+      "name": "V-Shop"
+    },
+    {
+      "id": "park",
+      "name": "Park"
+    }
+  ],
+  "assets": [
+    {
+      "id": "red_shoe_01",
+      "name": "Red Shoe"
+    },
+    {
+      "id": "book_02",
+      "name": "Book"
+    },
+    {
+      "id": "headphones_01",
+      "name": "Headphones"
+    },
+    {
+      "id": "key_01",
+      "name": "Key"
+    },
+    {
+      "id": "teddy_bear_01",
+      "name": "Teddy Bear"
+    },
+    {
+      "id": "smartphone_01",
+      "name": "Smartphone"
+    },
+    {
+      "id": "backpack_01",
+      "name": "Backpack"
+    }
+  ],
+  "rules": {
+    "duration_seconds": {
+      "min": 30,
+      "max": 180
+    },
+    "hidden_objects": {
+      "min": 1,
+      "max": 10
+    },
+    "hints": {
+      "min": 0,
+      "max": 5
+    },
+    "difficulty": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "score_per_object": {
+      "min": 10,
+      "max": 100
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "scenario": "compatible",
+    "prompt": "Create a game in a messy bedroom. The player must find 5 objects in less than 3 minutes. Harder objects should give more points. Add 3 hints and a reward at the end.",
+    "expected_http_status": 200
+  },
+  {
+    "scenario": "ambiguous",
+    "prompt": "Make me a fun game.",
+    "expected_http_status": 422
+  },
+  {
+    "scenario": "missing_asset",
+    "prompt": "Create a hidden objects game in a bedroom where I find a golden bicycle.",
+    "expected_http_status": 422
+  },
+  {
+    "scenario": "unsupported_mechanic",
+    "prompt": "Create a Formula 1 race in Tokyo with 40 cars and explosions.",
+    "expected_http_status": 422
+  },
+  {
+    "scenario": "complex_multi_constraint",
+    "prompt": "Create a hard hidden objects game in the park with a red shoe, book, headphones and key, lasting 150 seconds with 2 hints. Each object earns 30 points. Include a card reward.",
+    "expected_http_status": 200
+  }
+]
